@@ -1,3 +1,4 @@
+import About from "@/components/main/About";
 import Encryption from "@/components/main/Encryption";
 import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <Skills />
         <Projects />
+        <About />
         <Encryption />
       </div>
     </main>

@@ -27,7 +27,7 @@ const SkillText = () => {
         className='text-lg text-gray-400 mb-10 mt-[10px] text-center'
 
       >
-        Framework Island provides technical product building and deep operational support to entrepreneurs and help take an idea to product market fit.
+        Framework Island provides technical product building and deep operational support to great ideas and help build momentum until it reaches product market fit.
       </motion.div>
     </div>
   )
