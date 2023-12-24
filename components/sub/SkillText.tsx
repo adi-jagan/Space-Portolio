@@ -20,14 +20,17 @@ const SkillText = () => {
         variants={slideInFromLeft(0.5)}
         className='text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]'
       >
-        From ideas to products, and from products to ventures.
+        <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-4">
+          Ideas to products, products to ventures.
+        </h1>
+
       </motion.div>
       <motion.div
         variants={slideInFromRight(0.5)}
         className='text-lg text-gray-400 mb-10 mt-[10px] text-center'
 
       >
-        Framework Island provides technical product building and deep operational support to great ideas and help build momentum until it reaches product market fit.
+        Framework Island provides technical product building and deep operational support to help ideas that solve knowledge management problems come to life.
       </motion.div>
     </div>
   )

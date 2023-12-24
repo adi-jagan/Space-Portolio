@@ -59,10 +59,11 @@ const AboutContent = () => {
                 className="w-full h-full flex justify-center items-center"
             >
                 <Image
-                    src="/mainIconsdark.svg"
+                    src="/spaceLearner.png"
                     alt="work icons"
-                    height={650}
-                    width={650}
+                    height={450}
+                    width={450}
+                    className="roundedImage"
                 />
             </motion.div>
         </motion.div>
